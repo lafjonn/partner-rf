@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/default.css"/>
+    <link rel="stylesheet" href="css/all.css"/>
+    <link rel="stylesheet" href="css/lk-favourites.css">
+  </head>
+  <body>
+    <div class="tools">
+      <div class="wrapper">
+        <div class="container_tools"><a href="" class="tool_add">Добавить объявление<img src="img/+.png" alt="plus"/></a><a href="" class="tool_map"> <span>Вся Россия</span><img src="img/search.png" alt="map"/></a><a href="" class="tool_log">Вход<img src="img/in.png" alt="login"/></a><a href="" class="tool_reg">Региcтрация<img src="img/reg.png" alt="reg"/></a><a href="" class="tool_star"><img src="img/star.png" alt="star"/></a><a href="" class="tool_bag">Корзина<img src="img/basket.png" alt="bag"/></a></div>
+        <header>
+          <div class="logo">
+            <h1>Partner <span>R</span><span>F</span></h1><span class="logo_text">Портал товаров и услуг</span>
+          </div>
+          <div class="search">
+            <input type="text" placeholder="Поиск среди 580 506 объявлений"/>
+            <div class="select">Все Регионы</div>
+            <div class="button_search"><img src="img/header_search.png" alt="search"/></div>
+          </div>
+          <nav><a href="" class="burger"><img src="img/burger.png" alt="menu"/></a>
+            <!--.full_nav
+            .container
+               h3
+                  a(href="") промышленные товары
+               a(href="").link_burger Материалы
+               a(href="").link_burger Строительство и ремонт
+               a(href="").link_burger Оборудование
+               a(href="").link_burger Сельхозпродукция и техника
+               a(href="").link_burger Сырье и материалы
+               a(href="").link_burger Инструменты
+               a(href="").link_burger Промышленный транспорт
+            .container
+               h3 
+                  a(href="") потребительские товары
+               a(href="").link_burger Все для пикника
+               a(href="").link_burger Украшения и часы
+               a(href="").link_burger Авто, мото
+               a(href="").link_burger Техника и электроника
+               a(href="").link_burger Мобильные телефоны, смартфоны
+               a(href="").link_burger Все для пляжа
+               a(href="").link_burger Товары для детей
+            .container
+               h3 
+                  a(href="") Авто и мото                  
+               a(href="").link_burger Автомобили
+               a(href="").link_burger Мотоциклы и мототехника 
+               a(href="").link_burger Грузовики и спецтехника
+               a(href="").link_burger Водный транспорт
+               a(href="").link_burger Запчасти и аксессуары
+            .container
+               h3 
+                  a(href="") Туризм и отдых                   
+               a(href="").link_burger Билеты и путешествия 
+               a(href="").link_burger Велосипеды
+               a(href="").link_burger Книги и журналы
+               a(href="").link_burger Охота и рыбалка 
+               a(href="").link_burger Спортивные товары
+               a(href="").link_burger Охота и рыбалка
+            .container
+               h3 
+                  a(href="") Недвижимость                  
+               a(href="").link_burger Квартиры
+               a(href="").link_burger Комнаты
+               a(href="").link_burger Дома, дачи, коттеджи
+               a(href="").link_burger Земельные участки
+               a(href="").link_burger Гаражи и машиноместа
+               a(href="").link_burger Коммерческая недвижимость
+               a(href="").link_burger Недвижимость за рубежом
+            .container
+               .both
+                  h3 
+                     a(href="") Бизнес
+                  a(href="").link_burger Готовый бизнес
+                  a(href="").link_burger Оборудование для бизнеса
+                  h3 
+                     a(href="") Работа
+                  a(href="").link_burger Вакансии
+                  a(href="").link_burger Резюме
+            a(href="")
+               img(src="img/close.png", alt="close").close// 
+            --><a href="" style="border-bottom: 1px solid #1e8aab" class="link">Торговая платформа</a><a href="" class="link">Услуги и деятельность</a><a href="" class="link">Доска объявлений</a><a href="" class="link">Обучение и Тренинги</a>
+          </nav>
+        </header>
+        
+        <div class="main wrapper">
+        <div class="user-menu">
+          <ul class="user-menu__list">
+            <li class="user-menu__item user-menu__item--userinfo">
+              <a href="">Личные данные</a>
+            </li>
+            <li class="user-menu__item user-menu__item--orders">
+              <a href="">Мои заказы и сообщения</a>
+            </li>
+            <li class="user-menu__item user-menu__item--announce">
+              <a href="">Объявления</a>
+            </li>
+            <li class="user-menu__item user-menu__item--reviews">
+              <a href="">Отзывы</a>
+            </li>
+            <li class="user-menu__item user-menu__item--info">
+              <a href="">Справка</a>
+            </li>
+            <li class="user-menu__item user-menu__item--favourites">
+              <a class="hidden-text" href="">Избранное</a>
+            </li>
+            <li class="user-menu__item user-menu__item--exit">
+              <a class="hidden-text" href="">Выход</a>
+            </li>
+          </ul>
+          <div class="user-menu__person-block clearfix">
+            <div class="user-menu__person-info">
+              <div class="user-menu__avatar">
+                <img src="img/avatar.jpg" width="60px" height="60px" alt="">
+              </div>
+              <div class="user-menu__caption">
+                <p class="user-menu__name">Иван Иванов</p>
+                <p class="user-menu__id">Ваш ID: 578975</p>
+              </div>
+            </div>
+            <a href="#" class="user-menu__cross hidden-text">Закрыть</a>
+          </div>
+        </div>
+        
+       
+        
+        
+       </div>
+      </div>
+      <footer class="bottom_nav">
+        <div class="wrapper"><a href="">реклама</a><a href="">правила</a><a href="">контакты</a><a href="">помощь</a><a href="">интернет-партнеры</a><a href="">мобльные приложения</a><a href="">карта сайта</a></div>
+      </footer>
+      <div class="bottom">
+        <div class="wrapper">
+          <container>
+            <div class="logo">
+              <h1>Partner <span>R</span><span>F</span></h1><span class="logo_text">Портал товаров и услуг</span>
+            </div>
+            <div class="social"><a href="" style="background-position: 0px 0px"></a><a href="" style="background-position: 0px -40px"></a><a href="" style="background-position: 0px -80px"></a><a href="" style="background-position: 0px -120px"></a><a href="" style="background-position: 0px -160px"></a></div><a href="" class="but">оставить отзыв</a>
+          </container>
+          <container><a href="">Недвижимость</a><a href="">Компьютерная техника</a><a href="">Бытовая техника и электроника</a><a href="">Фото, оптика</a><a href="">Одежда, обувь, аксессуары</a><a href="">Товары для детей</a><a href="">Авто и мото</a><a href="">Продукты питания</a></container>
+          <container><a href="">Здоровье и красота</a><a href="">Музыка, искусство</a><a href="">Отдам даром</a><a href="">Животные и растения</a><a href="">Работа и образование</a><a href="">Услуги и деятельность</a><a href="">Бизнес и партнёрство</a><a href="">Праздники и подарки</a></container>
+          <container><a href="">Книги, учебники, журналы</a><a href="">Мебель, интерьер, обиход</a><a href="">Строительство и ремонт</a><a href="">Спорт, туризм, отдых</a><a href="">Все для дачи</a><a href="">Оборудование</a><a href="">Телефоны и связь</a><a href="">Другое</a></container>
+        </div>
+      </div>
+  </body>
+</html>

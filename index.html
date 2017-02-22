@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>PartnerRF</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"> 
+  </head>
+  <body>
+  
+    <header>
+      <div class="header-top">
+        <div class="container clearfix">
+          <a href="#">
+            <div class="announce-button button">
+              <span class="icon-plus">+ </span>
+             Добавить объявление</div>
+          </a>								
+          <div class="territory">
+            <select name="region">
+              <option value="Вся Россия">Вся Россия</option>
+              <option value="Москва">Москва</option>
+              <option value="Новосибирск">Новосибирск</option>
+            </select>
+            <label for="head-region"></label>
+          </div>
+          <div class="user-login">
+            <a href="#">Вход</a>
+          </div>
+          <div class="user-registration">
+            <a href="#">Регистрация</a>
+          </div>
+          <div class="user-favourites">
+            <a href="#">В избранное</a>
+          </div>
+          <div class="user-basket">
+            <a href="#">Корзина</a>
+          </div>
+        </div>
+      </div>
+      <div class="container clearfix">
+        <div class="header-main">
+          <div class="header-logo logo">
+            <a href="#"><img src="img/partner-rf.png" alt="PartnerRF" width="180" height="38"></a>
+            <span class="logo-title">Портал товаров и услуг</span>
+          </div>
+          <div class="search-block">
+            <form action="form" method="get">
+              <input class="search" name="search" type="text" id="search-id" placeholder="Поиск среди 508 506 объявлений">
+              <select name="region" id="search-region">
+                <option value="Вся Россия">Все Регионы</option>
+                <option value="Москва">Москва</option>
+                <option value="Новосибирск">Новосибирск</option>
+              </select>
+              <label for="head-region"></label>
+              <input class="search-button" type="submit" name="send" value="">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="container clearfix">
+        <nav class="head-navigation">
+          <ul>
+            <li>
+              <a class="nav-menu" href="#"></a>
+            </li>
+            <li class="nav-active">
+              <a href="#">Торговая платформа</a>
+            </li>
+            <li>
+              <a href="#">Услуги и деятельность</a>
+            </li>
+            <li>
+              <a href="#">Доска объявлений</a>
+            </li>
+            <li>
+              <a href="#">Обучение и тренинги</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container clearfix">
+        <div class="main-catalog">
+          <div class="catalog-item-large industrial">
+            <img src="img/large-1.jpg" width="499" height="364" alt="">
+            <div class="item-content">
+              <p class="platform">Торговая платформа</p>
+              <div class="content-bold"><p>Промышленные</p> товары</div>
+              <a class="button" href="">Смотреть</a>
+            </div>
+          </div>
+          <div class="catalog-item-large consumer">
+            <img src="img/large-2.jpg" width="499" height="364" alt="">
+            <div class="item-content">
+              <p class="platform">Торговая платформа</p>
+              <div class="content-bold"><p>Потребительские</p> товары</div>
+              <a class="button" href="">Смотреть</a>
+            </div>
+          </div>
+          <div class="catalog-item-large auto">
+            <img src="img/large-3.jpg" width="499" height="364" alt="">
+            <div class="item-content">
+              <p class="platform">Торговая платформа</p>
+              <div class="content-bold"><p>Авто и мото</p></div>
+              <a class="button" href="">Смотреть</a>
+            </div>
+          </div>
+          <div class="catalog-item-large tourism">
+            <img src="img/large-4.jpg" width="499" height="364" alt="">
+            <div class="item-content">
+              <p class="platform">Торговая платформа</p>
+              <div class="content-bold"><p>Туризм и спорт</p></div>
+              <a class="button" href="">Смотреть</a>
+            </div>
+          </div>
+          <div class="catalog-item-small realty">
+            <img src="img/small-1.jpg" width="332" height="291" alt="">
+            <div class="item-content">
+              <span>Недвижимость</span>
+              <a class="button" href="">Смотреть</a>
+            </div>
+          </div>
+          <div class="catalog-item-small business">
+            <img src="img/small-2.jpg" width="334" height="291" alt="">
+            <div class="item-content">
+              <span>Бизнес</span>
+              <a class="button" href="">Смотреть</a>
+            </div>
+          </div>
+          <div class="catalog-item-small job">
+            <img src="img/small-3.jpg" width="332" height="291" alt="">
+            <div class="item-content">
+              <span>Работа</span>
+              <a class="button" href="">Смотреть</a>
+            </div>
+          </div>
+          <a class="catalog-button" href="">Показать все</a>
+        </div>
+
+        <div class="main-popular">
+          <h2>Популярные предложения</h2>
+            <div class="popular-item">
+              <div class="flag flag-new"></div>
+              <figure>
+                <a href="#">
+                  <img src="img/popular-1.jpg" width="237" height="238" alt="">
+                </a>
+                <figcaption>
+                  <a href="#">
+                    <span class="item-name">Кухонный уголок<br> комфорт</span>
+                    <span class="old-price">15 500 руб.</span>
+                    <span class="new-price">10 250 руб.</span>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="popular-item">
+              <figure>
+                <a href="#">
+                  <img src="img/popular-2.jpg" width="237" height="238" alt="">
+                </a>
+                <figcaption>
+                  <a href="#">
+                    <span class="item-name">Сумка бежевая<br> Michael Kors</span>
+                    <span class="old-price"></span>
+                    <span class="new-price">35 250 руб.</span>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="popular-item">
+             <div class="flag flag-sale">Распродажа</div>
+              <figure>
+                <a href="#">
+                  <img src="img/popular-3.jpg" width="237" height="238" alt="">
+                </a>
+                <figcaption>
+                  <a href="#">
+                    <span class="item-name">Квартира с видом<br> на город</span>
+                    <span class="old-price"></span>
+                    <span class="new-price">от 50 250 руб./мес.</span>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="popular-item last-item">
+              <figure>
+                <a href="#">
+                  <img src="img/popular-4.jpg" width="237" height="238" alt="">
+                </a>
+                <figcaption>
+                  <a href="#">
+                    <span class="item-name">Стул кухонный<br> Мебель Бис</span>
+                    <span class="old-price"></span>
+                    <span class="new-price">18 250 руб.</span>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="popular-item">
+              <figure>
+                <a href="#">
+                  <img src="img/popular-5.jpg" width="237" height="238" alt="">
+                </a>
+                <figcaption>
+                  <a href="#">
+                    <span class="item-name">Туфли<br> Christian Louboutin</span>
+                    <span class="old-price"></span>
+                    <span class="new-price">35 250 руб.</span>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="popular-item">
+              <div class="flag flag-new">Новинка</div>
+              <figure>
+                <a href="#">
+                  <img src="img/popular-6.jpg" width="237" height="238" alt="">
+                </a>
+                <figcaption>
+                  <a href="#">
+                    <span class="item-name">Кухонный уголок<br> комфорт</span>
+                    <span class="old-price">15 500 руб.</span>
+                    <span class="new-price">10 250 руб.</span>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="popular-item">
+              <figure>
+                <a href="#">
+                  <img src="img/popular-7.jpg" width="237" height="238" alt="">
+                </a>
+                <figcaption>
+                  <a href="#">
+                    <span class="item-name">Стул кухонный<br> Мебель Бис</span>
+                    <span class="old-price"></span>
+                    <span class="new-price">18 250 руб.</span>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="popular-item last-item">
+             <div class="flag flag-sale">Распродажа</div>
+              <figure>
+                <a href="#">
+                  <img src="img/popular-8.jpg" width="237" height="238" alt="">
+                </a>
+                <figcaption>
+                  <a href="#">
+                    <span class="item-name">Квартира с видом<br> на город</span>
+                    <span class="old-price"></span>
+                    <span class="new-price">от 50 250 руб./мес.</span>
+                  </a>
+                </figcaption>
+              </figure>
+            </div>
+            <a class="catalog-button" href="#">Показать все</a>
+          </div>
+
+        <div class="main-news">
+          <h2>Новости и события</h2>
+          <div class="news-item">
+            <figure>
+              <a href="#">
+                <img src="img/news-1.jpg" width="230" height="179" alt="">
+              </a>
+              <figcaption>
+                <a href="#">
+                  <span class="item-title">Недвижимость</span>
+                  <span class="item-description">Лучшие предложения<br> о продаже недвижимости</span>
+                </a>
+                <time datetime="2016-10-16">16 октября 2016 </time>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="news-item">
+            <figure>
+              <a href="#">
+                <img src="img/news-2.jpg" width="230" height="179" alt="">
+              </a>
+              <figcaption>
+                <a href="#">
+                  <span class="item-title">Недвижимость</span>
+                  <span class="item-description">Лучшие предложения<br> о продаже недвижимости</span>
+                </a>
+                <time datetime="2016-10-16">16 октября 2016 </time>
+              </figcaption>
+            </figure>
+          </div> 
+          <div class="news-item">
+            <figure>
+              <a href="#">
+                <img src="img/news-3.jpg" width="230" height="179" alt="">
+              </a>
+              <figcaption>
+                <a href="#">
+                  <span class="item-title">Недвижимость</span>
+                  <span class="item-description">Лучшие предложения<br> о продаже недвижимости</span>
+                </a>
+                <time datetime="2016-10-16">16 октября 2016 </time>
+              </figcaption>
+            </figure>
+          </div> 
+          <div class="news-item last-item">
+            <figure>
+              <a href="#">
+                <img src="img/news-4.jpg" width="230" height="179" alt="">
+              </a>
+              <figcaption>
+                <a href="#">
+                  <span class="item-title">Недвижимость</span>
+                  <span class="item-description">Лучшие предложения<br> о продаже недвижимости</span>
+                </a>
+                <time datetime="2016-10-16">16 октября 2016 </time>
+              </figcaption>
+            </figure>
+          </div>
+        </div>         
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-top">
+        <div class="container clearfix">
+          <ul class="footer-navigation">
+            <li><a href="#">Реклама</a></li>
+            <li><a href="#">Правила</a></li>
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#">Помощь</a></li>
+            <li><a href="#">Интернет-партнеры</a></li>
+            <li><a href="#">Мобильные приложения</a></li>
+            <li><a href="#">Карта сайта</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-middle">
+       <div class="container clearfix">
+          <div class="logo-block">
+            <div class="footer-logo logo">
+              <a href="#"><img src="img/partner-rf-black.png" alt="PartnerRF" width="180" height="38"></a>
+              <span class="logo-title">Портал товаров и услуг</span>
+            </div>
+            <div class="social">
+              <a class="facebook" href="#" title="Facebook">f</a>
+              <a class="twitter" href="#" title="Twitter">t</a>
+              <a class="vkontakte" href="#" title="Вконтакте">В</a>
+              <a class="google" href="#" title="Google+">g<sup>+</sup></a>
+              <a class="odnokl" href="#" title="Одноклассники"></a>
+            </div>
+            <a class="footer-button" href="">Оставить отзыв</a>
+          </div>
+          <div class="column">
+            <ul>
+              <li><a href="#">Недвижимость</a></li>
+              <li><a href="#">Компьютерная техника</a></li>
+              <li><a href="#">Бытовая техника и электроника</a></li>
+              <li><a href="#">Фото, оптика</a></li>
+              <li><a href="#">Одежда, обувь, аксессуары</a></li>
+              <li><a href="#">Товары для детей</a></li>
+              <li><a href="#">Авто и мото</a></li>
+              <li><a href="#">Продукты питания</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li><a href="#">Здоровье и красота</a></li>
+              <li><a href="#">Музыка, искусство</a></li>
+              <li><a href="#">Отдам даром</a></li>
+              <li><a href="#">Животные и растения</a></li>
+              <li><a href="#">Работа и образование</a></li>
+              <li><a href="#">Услуги и деятельность</a></li>
+              <li><a href="#">Бизнес и партнёрство</a></li>
+              <li><a href="#">Праздники и подарки</a></li>
+            </ul>
+          </div>
+          <div class="column">
+            <ul>
+              <li><a href="#">Книги, учебники, журналы</a></li>
+              <li><a href="#">Мебель, интерьер, обиход</a></li>
+              <li><a href="#">Строительство и ремонт</a></li>
+              <li><a href="#">Спорт, туризм, отдых</a></li>
+              <li><a href="#">Все для дачи</a></li>
+              <li><a href="#">Оборудование</a></li>
+              <li><a href="#">Телефоны и связь</a></li>
+              <li><a href="#">Другое</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container clearfix">
+          <div class="copyright">
+            <p>&copy; 2016 &laquo;PartnerRF.ru&raquo; | Все права защищены</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+  </body>
+</html>
